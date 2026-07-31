@@ -1,0 +1,32 @@
+.myButton {
+            background-color : hotpink;
+            color: white;
+            margin: 5px;
+            border-style: solid;
+            border-color: black;
+            border-radius: 5px;
+            padding: 5px;
+        }
+
+        .myButton:hover {
+            background-color: orangered;
+            color: yellow;
+            font-size: 20px;
+            transition: font-size 0.4s ease-out;
+
+        }
+
+        .flexContainer {
+            display: flex;
+            justify-content: space-between;
+           
+        }
+
+body {
+        font-family: Arial, Helvetica, sans-serif;
+        color: green;
+        }
+        
+h1 {
+    color: red
+}
